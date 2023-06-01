@@ -1,0 +1,22 @@
+{
+  "name": "game-1",
+  "version": "0.0.1",
+  "description": "game-1",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "-",
+    "start-dev": "nodemon ./dist/index.js"
+  },
+  "keywords": [
+    "websocket"
+  ],
+  "author": "Mircea H",
+  "license": "ISC",
+  "dependencies": {
+    "ws": "^8.13.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node18": "^2.0.1",
+    "@types/ws": "^8.5.4"
+  }
+}

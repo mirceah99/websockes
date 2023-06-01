@@ -1,0 +1,16 @@
+.flex-info-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+#game {
+  width: 90%;
+  /* margin: auto; */
+  height: 50vh;
+  font-size: 46px;
+}
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
