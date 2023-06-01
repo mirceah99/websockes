@@ -1,4 +1,4 @@
-const socket = new WebSocket("ws://192.168.100.11:3300");
+const socket = new WebSocket("ws://localhost:3300");
 const userNameElement = document.querySelector("#name") as HTMLElement;
 const button = document.querySelector("#game") as HTMLButtonElement;
 const status = document.querySelector("#status") as HTMLElement;
